@@ -1,5 +1,5 @@
 task.wait(3) -- Cách sử dụng hiện đại hơn
-script_key = "CMfjVKklUCNHTvfqtexqhgGFnOtnLmzN";
+script_key = "gAkcQbizkwfQNnvgZtFvNkBbiuwekaGC";
 _G.GPROGRESS_MODE = "Hybrid"
 _G.GGFX_MODE = 1
 _G.GRANK_TO = 15
