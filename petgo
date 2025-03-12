@@ -1,4 +1,4 @@
-script_key = "CMfjVKklUCNHTvfqtexqhgGFnOtnLmzN";
+script_key = "gAkcQbizkwfQNnvgZtFvNkBbiuwekaGC";
 _G.GDO_LUCKY_WORLD_EVENT = true
 _G.GAUTO_RAID = false
 _G.GHATCH_LOBBY = true
@@ -23,8 +23,8 @@ _G.GMAX_POWER_FOR_PET_MASTERY_VIA_FUSING = "1000t"
 _G.GGFX_MODE = 1 -- or 2 to still see something
 _G.GZONE_TO = 99 -- to enter event from W3 intead put 999
 _G.GWEBHOOK_USERID = "1067392103585423440"
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1284765525670367303/mBmB-cnb2BlEF6P3lQxOC8GYjIdvXf9D7BpUodoOdxS2uhNvDkRkpLMVjUJs7y8NwPY8"
-_G.GMAIL_RECEIVERS = {"OKkMma_b"} -- for Mailing items/pets
+_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1280307675636301948/sM8Y96yRhPp_bcFBoHewrtwcuP2LoWfyOAmzuv_Lk3YSeboqh4A5XV9oDKwBBn1MR2yD"
+_G.GMAIL_RECEIVERS = {"kermieiacobus86"} -- for Mailing items/pets
 _G.GMAIL_ITEMS = {
 ["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
 ["Send Diamonds"] = {Class = "Currency", Id = "Diamonds", KeepAmount = "2m", MinAmount = "5m"}, -- mail diamonds, to enable lower MinAmount..
