@@ -1,25 +1,22 @@
-script_key = "gAkcQbizkwfQNnvgZtFvNkBbiuwekaGC";
-_G.GPROGRESS_MODE = "Hybrid"
-_G.GGFX_MODE = 1
-_G.GRANK_TO = 15
-_G.GZONE_TO = 999
-_G.GMAX_EGG_SLOTS = 99
-_G.GMAX_EQUIP_SLOTS = 50
-_G.GHOLD_GIFTS = false
-_G.GWAIT_AT_GATES_TILL_RANK = 6
-_G.GIGNORE_VIP = false
-_G.GIGNORE_SLEDRACE = false
-_G.GIGNORE_ALL_INSTANCES = false
-_G.GHOLD_BUNDLES = false
-_G.GMAX_ZONE_UPGRADE_COST = 2000000000
-_G.GCOLLECT_FREE_ITEMS = true
-_G.GMASTERY_TO_MAX = "Pets"
-_G.GPOTIONS = {"Coins","Lucky","Treasure Hunter","Walkspeed","Diamonds","Damage"}
-_G.GPOTIONS_MAX_TIER = 19
-_G.GUSE_SPRINKLERS = false
-_G.GUSE_FLAGS = {"Fortune Flag","Coins Flag","Diamonds Flag"}
-_G.GENCHANTS = {"Coins", "Strong Pets", "Criticals", "Strong Pets", "Criticals"}
-_G.GWEBHOOK_USERID = "1067392103585423440"
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1280307675636301948/sM8Y96yRhPp_bcFBoHewrtwcuP2LoWfyOAmzuv_Lk3YSeboqh4A5XV9oDKwBBn1MR2yD"
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+getgenv().Config = {
+    ["AutoQuest"] = true,
+    ["FarmEventPets"] = true,
+    ["PackToFarm"] = "Retro Pack", -- "Retro Pack", "Nightmare Pack", "Pog Pack", "Axolotl Pack"
+    ["PacksToOpen"] = {"Retro Pack"},
+    ["UpgradesToBuy"] = {
+        "CheaperPrestonPackMerchantPrices",
+        "CheaperMysteryPackMerchantPrices",
+        "EasierQuests",
+        "CheaperPacks"
+    },
+    ["Mailing"] = {
+        ["Usernames"] = {""},
+        ["AmountToMail"] = 15
+    },
+    ["Merchant"] = {
+        ["PacksToBuy"] = {"BIG Pack", "Fantasy Pack"},
+        ["CoinsToKeep"] = 1500000 -- Set this to like 10m if you only want to buy merchant
+    },
+    ["StopAutoQuestAfterMerchantIsUnlocked"] = true,
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4664a27cf52bbee305f2e173ce2a388a.lua"))()
