@@ -1,6 +1,6 @@
 getgenv().Config = {
     ["AutoQuest"] = true,
-    ["FarmEventPets"] = true,
+    ["FarmEventPets"] = false,
     ["PackToFarm"] = "Retro Pack", -- "Retro Pack", "Nightmare Pack", "Pog Pack", "Axolotl Pack"
     ["PacksToOpen"] = {"Retro Pack"},
     ["UpgradesToBuy"] = {
