@@ -1,6 +1,4 @@
-task.wait(6) -- Cách sử dụng hiện đại hơn
-
--- Sau khi chờ xong, chạy script
+task.wait(3) -- Cách sử dụng hiện đại hơn
 script_key = "CMfjVKklUCNHTvfqtexqhgGFnOtnLmzN";
 _G.GPROGRESS_MODE = "Hybrid"
 _G.GGFX_MODE = 1
