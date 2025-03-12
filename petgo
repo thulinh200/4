@@ -1,4 +1,4 @@
-task.wait(3) -- Cách sử dụng hiện đại hơn
+task.wait(5) -- Cách sử dụng hiện đại hơn
 script_key = "gAkcQbizkwfQNnvgZtFvNkBbiuwekaGC";
 _G.GPROGRESS_MODE = "Hybrid"
 _G.GGFX_MODE = 1
