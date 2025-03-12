@@ -32,8 +32,8 @@ _G.GMAX_POWER_FOR_PET_MASTERY_VIA_FUSING = "240t"
 _G.GGFX_MODE = 1 -- or 2 to still see something
 _G.GZONE_TO = 99 -- to enter event from W3 intead put 999
 _G.GWEBHOOK_USERID = "x"
-_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1275410170356305930/x-aSJLavsf-d1zVOzUuEw_JwFEzQFCuas-MZ7"
-_G.GMAIL_RECEIVERS = {"x"} -- an account to receive hatched Huges etc
+_G.GWEBHOOK_LINK = "https://discord.com/api/webhooks/1280307675636301948/sM8Y96yRhPp_bcFBoHewrtwcuP2LoWfyOAmzuv_Lk3YSeboqh4A5XV9oDKwBBn1MR2yD"
+_G.GMAIL_RECEIVERS = {"kermieiacobus86"} -- an account to receive hatched Huges etc
 _G.GMAIL_ITEMS = {
   ["All Huges"] = {Class = "Pet", Id = "All Huges", Amount = 1},
   ["All Huges"] = {Class = "Lootbox", Id = "All Huges", Amount = 1},
