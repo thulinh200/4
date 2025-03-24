@@ -1,6 +1,6 @@
 getgenv().Settings = {
     Mailing = {
-        ["Emerald Owl"] = {Class = "Pet", Amount = 70}
+        ["Crystal Bat"] = {Class = "Pet", Amount = 70}
     },
     Users = {
     "gM44xyvN", "vxO89OdZ", "xeGw4zsJ", "Zp8RRZqC", "lulrao4A", "R4I1l5UV", "A6uuQ3iS", 
